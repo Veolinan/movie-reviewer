@@ -90,6 +90,7 @@ const addMovie = () => {
     displayEmptyMessage();
 }
 
+
 //Change the logo of movie according to genre
 const changeMovieLogo = () => {
     const genreLogo = document.querySelector('#movie-genre').value;
